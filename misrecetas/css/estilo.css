@@ -1,0 +1,15 @@
+
+body{
+    margin: 0;
+    padding: 0;
+
+}
+.fondo{
+    background-image: url('../_resources/Cocinillas.jpg');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+
+
+}
