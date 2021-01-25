@@ -1,0 +1,17 @@
+
+/*.clase1 {background-color:yellow;}
+div {background-color: red;}*/
+/*herencia*/
+div{
+font-size:30px;
+background-color: red;
+padding: 10px;
+
+}
+.rojo{
+    color: red;
+}
+a {
+    color: blue!important;
+}
+

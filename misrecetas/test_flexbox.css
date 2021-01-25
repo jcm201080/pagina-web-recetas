@@ -1,0 +1,36 @@
+.padre-flex{
+    width: 800px;
+    height: 600px;    
+    background-color: red;
+
+    display:flex;
+    flex-direction: column-reverse;   
+    flex-wrap: wrap;    
+    justify-content: space-between; 
+}
+.hijo-flex{
+    font-size: 80px;
+    border: 1px solid black;
+    background-color: green;
+    color: white;
+    width: 200px;
+    height: 200px; 
+
+}
+
+
+
+
+
+.ejemplo{
+    display: flex;
+    justify-content: row;
+    margin-top: 100px;
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    justify-content: flex-end;
+}
+.botton{
+    height: 20px;
+}

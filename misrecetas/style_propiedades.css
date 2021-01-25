@@ -1,0 +1,78 @@
+
+/* * {font-family: Verdana, Geneva, Tahoma, sans-serif;} para todas las clases*/
+/* Texto:
+
+div{
+font-family: verdana;/*google fonts
+font-size: 50px; /*Tamaño de la letra, 16px tamaño por defecto
+font-weight:bold ;/*grosor normal=400
+font-style: italic;
+/*font:bold 24px verdana;para abreviar, no se suele usar
+text-align: center;/*alinea el texto
+line-height: 1.4;/*altura de linea entre los renglones
+color: rgb(122, 20, 218);
+color: rgba(rgb(119, 0, 255), green, rgba(0, 0, 255, 0.301), alpha);
+}
+
+span{
+    text-decoration: underline red;
+}
+ hasta aaqui texto*/
+
+
+ /* Tamaños: */
+ .imagen{
+     width: 100%;
+     height: auto;
+ }
+ .tamaño{
+     box-sizing: border-box;
+    background-color: red;
+    padding: 10px;
+    border: 8px solid green;
+    width: 100vw;/*no deja bordes*/
+    height: 100px;/*auto por defecto, vh sin bordes*/
+    overflow-y: scroll;/* todo lo que no cabe hace un scroll, mejor evitarlo*/
+
+ }
+ .margin-padding{
+    border: 2px solid red;
+    /*margin-top: 20px;
+    margin-bottom: 100;
+    margin-left: 10;
+    margin-right: 100; para dar forma o poner margin:10px 100px 12px 10px*/
+    margin: 10px;/*margen*/
+    margin-left: 30px;
+    padding: 10px;
+ }
+.padre{
+    font-size: 10px;
+}
+
+ .test-em{
+     font-size:2em;/*el rem anula el anterior, em lo multiplica el anterior (el padre)*/
+ }
+ .background{
+     width: 400px;
+     height: 200px;
+     background-color:rgba(red, green, blue, 100);
+     background-image:url('/_resources/vichyssoise-de-esparragos-blancos.jpg');
+     background-position:left ;
+     background-size:100px ;
+     background-repeat: repeat ;
+/*background:red url(/_resources/vichyssoise-de-esparragos-blancos.jpg) repeat ; resumido*/
+ }
+ .border{
+     margin: 2em;
+     padding: 2em;
+     border-width: 10px;
+     border-color: red;
+     border-style:solid;
+          /*border= 1px solid red*/
+    border-radius: 10em;
+background: -webkit-linear-gradient(botton 100 red);/*degradados mirar*/
+ }
+ .flex{
+     display: flex;
+     
+ }

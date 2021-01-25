@@ -1,0 +1,36 @@
+div.hover{
+    background-color: brown;
+    color: white;
+}
+div.hover:hover{
+    background-color: blue;
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+text-decoration: underline;
+color: green
+}
+div.child{
+    background-color: blue;
+}
+div.child p{
+    background-color: cadetblue;
+}
+div.child p:first-child{
+    background-color: red;
+}
+div.margen {
+    background-color: blue;
+}
+div.margen p:last-child{
+    padding-bottom: 0;
+}
+div.nth{
+    background-color: red;
+}
+div.nth p:nth-child(3){
+    background-color: green;
+}

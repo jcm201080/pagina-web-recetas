@@ -1,0 +1,13 @@
+/*Esta es mi primera hoja de estilo*/
+<style>
+    .caja {
+        display: block;
+        padding: 15px;
+        font-size: 20px;
+        border-radius: 10px;
+        border:1px solid black;
+    }
+    .linea {
+        text-decoration: underline;
+    }
+    </style>

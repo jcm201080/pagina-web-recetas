@@ -1,0 +1,60 @@
+.caja{
+    background-color: red;
+    color: white;
+    padding:1em;
+    border: 1px solid black;
+    
+}
+.caja1{
+    position: relative;
+    top: 30px;
+    background-color: green;
+    left: 10px;
+}
+.hijo{
+    position: absolute;
+    background-color: violet;
+    width: 50px;
+    height: 40px;
+    top: 0;
+    left: 0;
+
+}
+.caja2{
+    position: relative;
+    left: 20px;
+    background-color:red;
+   
+}
+.caja3{
+    position: relative;
+    background-color:blue;
+    
+}
+.caja4{
+    position: relative;
+    background-color: yellow;
+    
+}
+.cajauno{
+    background-color: red;
+    color: white;
+    padding:1em;
+    border: 1px solid black;
+    
+}
+.block{
+    display: block;
+    background-color: red;
+
+}
+.inline{
+    display: inline;
+    background-color: green;
+
+}
+.inline-block{
+    display: inline-block;
+    background-color: yellow;
+
+}
