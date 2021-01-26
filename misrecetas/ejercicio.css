@@ -1,0 +1,65 @@
+/*ejercicio 1
+.padre{
+    background-color: blue;
+    display: flex;  
+    width: 500px;
+    height: 500px;
+}
+.hijo{
+    background-color: yellow;
+    border: 2px solid black;
+    height: 100px;
+    width: 100%;
+}
+*/
+/*ejercicio2
+.padre{
+    background-color: blue;
+    display: flex;  
+    width: 500px;
+    height: 500px;
+    justify-content: space-between;
+
+}
+.hijo{
+    background-color: yellow;
+    border: 2px solid black;
+    height: 200px;
+    width: 70px;
+}
+*/
+/*ejercicio 3
+.padre{
+    background-color: blue;
+    display: flex;  
+    width: 500px;
+    height: 500px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;   
+    
+}
+.hijo{
+    background-color: yellow;
+    border: 2px solid black;
+    height: 80px;
+    width: 80px;
+}
+*/
+/*ejerccio 3*/
+.padre{
+    background-color: blue;
+    display: flex;  
+    width: 500px;
+    height: 500px;
+    
+}
+.hijo{
+    background-color: yellow;
+    border: 2px solid black;
+    height: 80px;
+    width: 80px;
+}
+.derecha{
+   margin-left: auto;
+}
