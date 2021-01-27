@@ -1,0 +1,93 @@
+/*ejercicio5
+.padre{
+    background-color: blue;
+    display: flex;  
+    width: 500px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+        
+}
+.hijo{
+    background-color: yellow;
+    border: 2px solid black;
+    height: 80px;
+    width: 80px;
+    */
+    /*ejercicio 7
+    .padre{
+        background-color: blue;
+        display: flex;  
+        width: 500px;
+        height: 500px;
+        justify-content: center;
+        align-items: flex-end;        
+            
+    }
+    .hijo{
+        background-color: yellow;
+        border: 2px solid black;
+        height: 80px;
+        width: 80px;
+        */
+        /*Ejercicio 6
+        .padre{
+            background-color: blue;
+            display: flex;  
+            width: 500px;
+            height: 500px;
+            flex-wrap: wrap;/* para que salten y mantengan el ancho
+            justify-content: center;
+            align-content:space-between;
+                   
+                
+        }
+        .hijo{
+            background-color: yellow;
+            border: 2px solid black;
+            height: 100px;
+            width: 100px;         
+        }
+        .hijo{
+            background-color: yellow;
+            border: 2px solid black;
+            height: 80px;
+            width: 80px;
+        
+            /*Ejercicio 6
+            .padre{
+                background-color: blue;
+                display: flex;  
+                width: 500px;
+                height: 500px;
+                flex-wrap: wrap;/* para que salten y mantengan el ancho
+                justify-content: center;
+                align-content:space-between;
+                       
+                    
+            }
+            .hijo{
+                background-color: yellow;
+                border: 2px solid black;
+                height: 100px;
+                width: 100px;         
+            }*/
+
+  .padre{
+                background-color: blue;
+                display: flex;  
+                width: 500px;
+                height: 500px; 
+                display: flex;
+                overflow: auto;/*igual overflow-x: scroll;*/                      
+                    
+            }
+    .hijo{
+                background-color: yellow;
+                border: 2px solid black;
+                height: 100px;
+                width: 100px;
+                flex-shrink: 0; /*flex: 0 0 auto;*/
+                        
+            }
+            

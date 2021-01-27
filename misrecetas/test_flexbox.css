@@ -34,3 +34,39 @@
 .botton{
     height: 20px;
 }
+/*Clase dia 26 martes*/
+*{
+    box-sizing: border-box;
+}
+.padreM{
+    display: flex;
+    background-color: blue;
+    height: 500px;
+    width: 50%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+    /*align-items: center;por defecto strech (se refiere a una sola linea*/
+    align-content:flex-end;/*va con: flex-wrap: wrap; pq salta*/
+
+}
+.hijo{
+    border: 1px solid black ;
+    background-color: rgb(185, 202, 168);
+    /*width: 80px;*/
+    height: 80px;
+    margin: 5px;
+    flex-grow: 1;/*se va expandiendo (0 se queda como esta*/
+    flex-shrink: 1;/*para reducir*/
+    /*flex-basis: 100px;/* =width (row) heigt(colum); si estoy en row es altura y en colum es añchura. podemos quitar width o heigth*/
+    /*flex;0 0 100px; grow shrink basis*/
+}
+.grow{
+    flex-grow: 3;
+}
+.shrink{
+
+    flex-shrink: 4;
+}
+
+

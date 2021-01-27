@@ -1,0 +1,10 @@
+*{
+   box-sizing: border-box; 
+}
+.padre{
+    background-color: blue;
+    max-width: 1200px;
+    width: 100%;  
+    margin: 0 auto;/*margin-left: auto; margin-right: auto; para centrar*/
+    padding: 0 1em;
+}
