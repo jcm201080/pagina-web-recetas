@@ -1,0 +1,23 @@
+*{ box-sizing:border-box}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1em;
+    background-color: yellow;
+    display: flex;
+    
+
+}
+section{
+    background-color: red;
+    width: 80%;
+    height: 500px;
+   
+}
+aside{
+    background-color: blue;
+    width: 200px;
+    height: 500px;
+    flex-shrink: 1;
+}
